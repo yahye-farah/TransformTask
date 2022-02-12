@@ -4,6 +4,7 @@ const nextConfig = {
   env: {
     API: 'http://localhost:3001',
   },
+  distDir: 'build',
 };
 
 module.exports = nextConfig;
