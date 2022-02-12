@@ -2,14 +2,14 @@
 
 ## client
 
-      cd client \
-      npm i\
+      cd client
+      npm i
       npm run dev
 
 ## backend
 
-    cd backend \
-    npm i \
+    cd backend
+    npm i
     npm run start:dev
 
 Note you need to either to install mongodb on your computer or online one
