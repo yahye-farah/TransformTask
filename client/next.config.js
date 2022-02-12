@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   env: {
-    API: 'http://localhost:3001',
+    API: process.env.API || 'http://localhost:3001',
   },
   distDir: 'build',
 };
